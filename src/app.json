@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/bookshelf/main",
+    "pages/bookcity/main",
+    "pages/bookend/main",
+    "pages/bookread/main",
+    "pages/bookrank/main",
+    "pages/booktype/main",
+    "pages/citysearch/main",
+    "pages/bookdetail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#343a40",
+    "navigationBarTitleText": "小说",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "backgroundColor": "#343a40",
+    "selectedColor": "#28a745",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "书架",
+      "pagePath": "pages/bookshelf/main",
+      "iconPath": "static/img/tabs/book.png",
+      "selectedIconPath": "static/img/tabs/book_green.png"
+    }, {
+      "text": "书城",
+      "pagePath": "pages/bookcity/main",
+      "iconPath": "static/img/tabs/book_city.png",
+      "selectedIconPath": "static/img/tabs/book_city_green.png"
+    }],
+    "position": "bottom"
+  },
+  "networkTimeout": {
+    "request": 15000,
+    "connectSocket": 15000,
+    "uploadFile": 15000,
+    "downloadFile": 15000
+  }
+}
